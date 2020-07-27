@@ -1,0 +1,4 @@
+nano local.sh #paste the script here.. 
+docker build -t curler .
+docker run -it curler
+
